@@ -1,0 +1,234 @@
+.box{
+    width: 550px;
+    margin: 10px auto;
+    border-radius: 14px;
+    border: 2px solid rgb(213, 207, 207);;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px 14px 10px 14px;
+}
+.card{
+    position: relative;
+}
+.box-img{
+    border-radius: 14px;
+    width: 100%;
+}
+.fash1{
+    background-color: rgb(66, 122, 196);
+    padding: 2px 8px 2px 8px;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;    
+    color: azure;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.fash3{
+    background-color: whitesmoke;
+    border-radius: 6px;
+    padding: 2px 8px 2px 8px;
+    position: absolute;
+    bottom: 30px;
+    right: 15px;    
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.fash2{
+    background-color: rgb(177, 168, 168);
+    border-radius: 5px;
+    padding: 2px 8px 2px 8px;
+    position: absolute;
+    top: 16px;
+    left: 15px;    
+    color: rgb(240, 226, 226);
+    font-weight: 600;
+    font-size: 16px;
+}
+.text1{
+    font-weight: 600;
+}
+.text2{
+    font-weight: 500;
+    color: rgb(189, 179, 179);
+}
+.footer{
+    border-top: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-img{
+    width: 15%;
+    height: 30px;
+    border-radius: 1px;
+}
+.text3{
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 20px;
+    color: rgb(189, 179, 179);
+
+}
+
+/* desgin1 */
+.box1{
+    width: 600px;
+    margin: 10px auto;
+    border-radius: 14px;
+    border: 2px solid rgb(213, 207, 207);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fash6{
+    background-color: whitesmoke;
+    border-radius: 60px;
+    padding: 2px 8px 2px 8px;
+    position: absolute;
+    bottom: 40px;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    width: 30%;
+    height: 40px;
+}
+.fash4{
+    position: absolute;
+    color: white;
+    top:150px;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.fash5{
+    position: absolute;
+    color: white;
+    text-align-last: center;
+    padding: 8px 15px 8px 8px;
+    top:200px;
+}
+/* design3 */
+
+.box2{
+    width: 800px;
+    margin: 10px auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box2-img{
+    width: 100%;
+    height: 300px;
+}
+.card2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2-text1{
+    color: white;
+    position: absolute;
+    top:70px;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+.box2-text2{
+    color: white;
+    position: absolute;
+    top:140px;
+    font-weight: 400;
+    font-size: 30px;
+    object-fit: content;
+}
+.card3{
+    position: absolute;
+    display: flex;
+    bottom: 60px;
+    border-radius: 3px;
+}
+.drpdown{
+    width: 150px;
+    height: 40px;
+    background-color: azure;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    display: flex;
+    align-items: center;
+  padding-left: 6px;
+  margin-left: 120px;
+}
+.btn{
+    width: 350px;
+    height: 40px;
+    border: none;
+    background-color: azure;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-left: 2px;
+}
+ .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  } 
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    float: right;
+    padding-right: 3px;
+    padding-top: 3px;
+    margin-left: 120px;
+  }
+
+  /* profile */
+  .profile{
+    width: 600px;
+    height: 320px;
+    margin: auto;
+    position: relative;
+    border: 2px solid rgb(213, 207, 207);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.cover{
+    width: 100%;
+    height: 120px;
+    object-fit: content;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.user{
+    height: 100px;
+    position: absolute;
+  left:240px;
+    top: 60px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+.profile2{
+    position: absolute;
+    color: black;
+    bottom:80px;
+    font-weight: 800;
+    font-size: 40px;
+    left:230px;
+}
+.profile3{
+    position: absolute;
+    color: rgb(67, 65, 65);
+    text-align-last: center;
+    padding: 8px 15px 8px 8px;
+    bottom:30px;
+    left:180px;
+    font-weight: 700;
+    font-size: 30px;
+}
